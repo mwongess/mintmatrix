@@ -38,9 +38,6 @@ export function MonthRevenue() {
     <Card>
       <CardHeader>
         <CardTitle>Area Chart</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6 months
-        </CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig} className="h-28 w-full">

@@ -1,6 +1,6 @@
 import SmartSearch from "@/components/SmartSearch"
 import Statistics from "@/components/Statistics"
-import TransactionList from "@/components/TransactionList"
+import {TransactionList }from "@/components/TransactionList"
 import Wallet from "@/components/Wallet"
 
 const Console = () => {
@@ -9,7 +9,7 @@ const Console = () => {
             <SmartSearch />
             <Wallet />
             <Statistics />
-            <TransactionList />
+            <TransactionList/>
         </div>
     )
 }

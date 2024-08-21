@@ -6,9 +6,8 @@ const Statistics = () => {
             <div className="grid grid-cols-4 gap-4">
                 <MonthRevenue />
                 <MonthRevenue />
-                <div className="col-span-2 h-60">
-
-                <MonthRevenue />
+                <div className="col-span-2 ">
+                    <MonthRevenue />
                 </div>
             </div>
         </div>
